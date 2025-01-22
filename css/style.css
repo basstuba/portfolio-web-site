@@ -175,6 +175,14 @@ li {
   border: 1px solid #e6e6e6;
 }
 
+.works-img__wrapper {
+  position: relative;
+}
+
+.works-img__wrapper img {
+  opacity: .3;
+}
+
 .works-name {
   font-size: 12px;
   font-weight: bold;
@@ -185,9 +193,23 @@ li {
   font-size: 10px;
 }
 
+.works-img__sample-text {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: nowrap;
+}
+
 /*--------------------------------
  Skill
 ---------------------------------*/
+.skill-genre {
+  font-size: 24px;
+  margin: 16px;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
@@ -215,6 +237,57 @@ li {
 
 .skill-name {
   margin-bottom: 3px;
+}
+
+/*--------------------------------
+ About
+---------------------------------*/
+.about-wrapper {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.my-image {
+  width: 15%;
+}
+
+.my-icon {
+  border-radius: 70px;
+}
+
+.about-item {
+  width: 70%;
+  margin-left: 32px;
+}
+
+.about-name {
+  margin-bottom: 16px;
+}
+
+.about-text1,
+.about-text3 {
+  margin-bottom: 16px;
+}
+
+.about-text4 {
+  margin-bottom: 32px;
+}
+
+.about-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.about-link img {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.about-link__text {
+  color: #333;
 }
 
 /*--------------------------------
@@ -306,6 +379,20 @@ li {
   text-align: center;
 }
 
+/*media Queries 1023
+----------------------------------------------------*/
+@media screen and (max-width: 1023px) {
+  /* works */
+  .works-item {
+    width: 40%;
+    margin: 0 5%;
+  }
+
+  .works-info {
+    margin-bottom: 16px;
+  }
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
@@ -383,7 +470,8 @@ li {
   }
 
   .works-list {
-    justify-content: space-between;
+    display: block;
+    text-align: center;
   }
 
   .works-item {
@@ -393,6 +481,10 @@ li {
   }
 
   /* Skill */
+  .skill-genre {
+    font-size: 20px;
+  }
+
   .skill-list {
     display: block;
     margin-bottom: 0;
@@ -407,8 +499,34 @@ li {
     margin-bottom: 0;
   }
 
+  /* About */
+  .about-wrapper {
+    display: block;
+  }
+
+  .my-image {
+    width: 135px;
+    margin: 0 auto 16px;
+  }
+
+  .about-item {
+    margin: 0 auto;
+  }
+
   /* フッター */
   .footer {
     padding: 20px;
+  }
+}
+
+/*media Queries 374
+----------------------------------------------------*/
+@media screen and (max-width: 374px) {
+  .header-inner {
+    display: block;
+  }
+
+  .header-logo {
+    margin-bottom: 8px;
   }
 }
