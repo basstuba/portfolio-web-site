@@ -113,7 +113,7 @@ li {
 }
 
 .header-nav-item a:hover {
-  opacity: .8;
+  border-bottom: 3px solid #6fadff;
 }
 
 /*--------------------------------
@@ -298,6 +298,10 @@ li {
 
 .about-link__text {
   color: #333;
+}
+
+.about-link__text:hover {
+  color: #1ca9e3;
 }
 
 /*--------------------------------
