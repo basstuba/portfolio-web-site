@@ -20,11 +20,6 @@ img {
   border-style: none;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
 .pc-only {
   display: block;
 }
@@ -98,6 +93,11 @@ li {
 .header-nav-list {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+}
+
+.header-nav-item {
+  list-style: none;
 }
 
 .header-nav-item:not(:last-child) {
@@ -368,7 +368,8 @@ li {
 }
 
 .article-img {
-  margin-bottom: 20px;
+  max-width: 720px;
+  margin: 0 auto 20px;
 }
 
 .article-body {
@@ -378,7 +379,7 @@ li {
 }
 
 .article-info-title {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .article-body img {
@@ -387,6 +388,14 @@ li {
 
 .article-body p {
   margin-bottom: 30px;
+}
+
+.article-skill-list {
+  margin-bottom: 30px;
+}
+
+.article-skill {
+  margin-left: 20px;
 }
 
 .home-link {
