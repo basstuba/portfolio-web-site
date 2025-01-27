@@ -379,6 +379,7 @@ img {
 }
 
 .article-info-title {
+  color: #3d3d3d;
   font-size: 20px;
 }
 
@@ -540,6 +541,15 @@ img {
   /* フッター */
   .footer {
     padding: 20px;
+  }
+
+  /* 下層：Worksページ */
+  .article-title {
+    margin: 10px 0 20px;
+  }
+
+  .article-info-title {
+    font-size: 16px;
   }
 }
 
