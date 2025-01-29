@@ -135,7 +135,7 @@ img {
 .split-img {
   width: 50%;
   height: 95vh;
-  background-image: url(../img/krakow.jpg);
+  background-image: url(../img/pc-krakow.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -570,7 +570,7 @@ img {
     width: 100%;
     height: 67vh;
     margin-bottom: 20px;
-    background-image: url(../img/sp_krakow.png);
+    background-image: url(../img/sp-krakow.jpg);
   }
 
   .split-title {
