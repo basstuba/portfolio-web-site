@@ -1,0 +1,1 @@
+# Takayoshi Shioya Portfolio site
