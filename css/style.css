@@ -349,6 +349,16 @@ img {
   text-align: center;
   color: #797979;
 }
+
+.icon-license {
+  font-size: 10px;
+  text-align: center;
+  color: #797979;
+}
+
+.icon-license__link {
+  color: #797979;
+}
 /*--------------------------------
  下層：Worksページ
 ---------------------------------*/
