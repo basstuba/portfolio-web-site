@@ -659,6 +659,18 @@ img {
   }
 }
 
+/*media Queries 432
+----------------------------------------------------*/
+@media screen and (max-width: 432px) {
+  .long-title {
+    text-align: center;
+  }
+
+  .long-title__span {
+    display: block;
+  }
+}
+
 /*media Queries 374
 ----------------------------------------------------*/
 @media screen and (max-width: 374px) {
