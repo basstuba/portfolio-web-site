@@ -277,6 +277,7 @@ img {
 }
 
 .about-text1,
+.about-text2,
 .about-text3 {
   margin-bottom: 16px;
 }
@@ -435,21 +436,11 @@ img {
   display: block;
 }
 
-.sample-wrapper {
-  position: relative;
-}
-
-.sample-wrapper img {
-  opacity: .3;
-}
-
 .sample-wrapper__text {
-  font-size: 32px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-wrap: nowrap;
+  font-size: 13px;
+  color: #777;
+  margin-top: 8px;
+  text-align: right; /* 中央寄せなら center */
 }
 
 .article-img {
